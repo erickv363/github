@@ -36,4 +36,24 @@ h6 {
 
 p {
     color: red;
+    font-size: 1em;
+    line-height: 0.5em;
+}
+
+header{
+    background-color: aqua;
+}
+
+
+div{
+    border: 1px red solid;
+}
+.headtest{
+    color:black;
+    font-size: 1.5em;
+}
+
+.icon-red{
+    color: red;
+    font-size: 64px;
 }
