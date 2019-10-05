@@ -1,0 +1,39 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    color: darkkhaki;
+    font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+    color: chocolate;
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    color: peru;
+    font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+    color: lime;
+    font-family: 'Oswald', sans-serif;
+}
+
+h5{
+    color: olive;
+    font-family: 'Oswald', sans-serif;
+}
+
+h6 {
+    color: pink;
+    font-size: 1.5em;
+    border: 2px red solid;
+    margin: 0;
+}
+
+p {
+    color: red;
+}
