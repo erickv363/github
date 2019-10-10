@@ -35,27 +35,36 @@ h6 {
 }
 
 p {
-    color: red;
+    color: darkblue;
     font-size: 1em;
-    line-height: 0.5em;
+    line-height: 2em;
 }
 
 header{
-    background-color: aqua;
-    height: 110px;
-    display: flex;
-    justify-content: space-between;
+    background-color: white;
+    /* height: 110px; */
+    justify-content: space-around;
 }
 
 main {
-    height: 530pt;
+    /* height: 530pt; */
+    padding: 24px;
+    justify-content: space-around;
     background-color: #05A72C;
     /* background-color: rgba(5, 167, 44, 0.4) */
 }
 
 footer {
-    background-color: #05A72C;
-    height: 550pt;
+    background-color: #eee;
+    /* height: 550pt; */
+}
+
+.txtCenter{
+    text-align: center;
+}
+
+.txtJustify{
+    text-align: center;
 }
 
 ul{
@@ -72,16 +81,14 @@ li a{
     padding: 4px 8px;
 }
 
-div{
-    /* border: 1px red solid; */
-}
+
 .headtest{
     color:black;
     font-size: 1.5em;
 }
 
 .icon-red{
-    color: red;
+    color: darkmagenta;
     font-size: 64px;
 }
 
@@ -90,7 +97,8 @@ div{
 }
 
 .bkSizeLarge{
-    height: 750pt;
+    /* height: 350pt; */
+    padding: 24px;
 }
 
 .imgRounded {
@@ -98,7 +106,7 @@ div{
     background-image: url("../images/photo-1503401639559-b16332601594.jpg");
     width: 100px;
     height: 100px;
-    background-color: blue;
+    background-color: magenta;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,22 +119,61 @@ div{
     width: 30%; */
 }
 
+.logoEvernote {
+    background-image: url("../images/evernote_logo.png");
+    width: 200px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 button{
 
 }
 
-a{
-    padding: 10px 50px;
-    /* padding-top: 50px: */
-
+.button-outline{
+    display: inline-block;
+    height: 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align:  center;
+    border: 2px solid green;
+    padding: 0 10;
 }
+
+a{
+    /* padding: 10px 50px; */
+    /* padding-top: 50px: */
+    /* margin: 30px; */
+    /* border: 30px; */
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: aquamarine;
+    text-decoration: underline;
+}
+a:active{
+    color: rebeccapurple;
+}
+
 .row {
     display: flex;
 }
 
 .col {
     /* float: left; */
-    /* padding: 15px; */
+    padding: 16px 48px;
     /* border: 1px solid green; */
     /* width: 30%; */
 }
