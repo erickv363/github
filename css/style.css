@@ -30,8 +30,7 @@ h5{
 h6 {
     color: pink;
     font-size: 1.5em;
-    border: 2px red solid;
-    margin: 0;
+    margin: 20px 0;
 }
 
 p {
@@ -128,8 +127,14 @@ li a{
     background-repeat: no-repeat;
 }
 
-button{
+.alignCenter{
+    align-items: center;
+}
 
+
+button{
+    padding: 16px;
+    text-transform: uppercase;
 }
 
 .button-outline{
@@ -139,7 +144,9 @@ button{
     text-decoration: none;
     text-align:  center;
     border: 2px solid green;
-    padding: 0 10;
+    padding: 0 10px;
+    line-height: 40px;
+    min-width: 120px;
 }
 
 a{
@@ -165,6 +172,11 @@ a:hover{
 }
 a:active{
     color: rebeccapurple;
+}
+
+
+.flex{
+    display: flex;
 }
 
 .row {
@@ -194,3 +206,18 @@ a:active{
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+
+
+
+@media only screen and (min-width: 600px) {
+    h1{
+        color: yellow;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h1{
+        color: mediumblue;
+    }
+}
